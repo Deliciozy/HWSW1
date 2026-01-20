@@ -41,7 +41,6 @@ This section contains (1) a device communication diagram and (2) a data processi
 ---
 
 ## Parts List (with part numbers)
-## Parts List (with Hard Part Numbers)
 
 ### 🔹 Sensor Device (Wearable Sensor Module)
 
