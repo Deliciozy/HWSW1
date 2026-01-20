@@ -61,7 +61,7 @@ This section contains (1) a device communication diagram and (2) a data processi
 - **Name:** USB Power / LiPo Battery (3.7V)  
 - **Part Number:** N/A (Generic Power Source)  
 - **Reason:** Powering the wearable sensor module during prototyping  
-- **Datasheet:** `Generic_LiPo_Battery_Datasheet.pdf` (or USB power specification PDF)
+- **Datasheet:** `Generic_LiPo_Battery_Datasheet.pdf` 
 
 ---
 
