@@ -41,7 +41,65 @@ This section contains (1) a device communication diagram and (2) a data processi
 ---
 
 ## Parts List (with part numbers)
-> Note: If your exact part differs, replace the part number with the exact one you will use.
+## Parts List (with Hard Part Numbers)
+
+### 🔹 Sensor Device (Wearable Sensor Module)
+
+#### Microcontroller
+- **Name:** Seeed Studio XIAO ESP32C3  
+- **Part Number:** 113991054  
+- **Reason:** Ultra-compact ESP32 board with BLE support, suitable for wearable sensing  
+- **Datasheet:** `Seeed_XIAO_ESP32C3_Datasheet.pdf`
+
+#### Heart Rate / Pulse Sensor
+- **Name:** Pulse Sensor Amped  
+- **Part Number:** SEN-11574  
+- **Type:** Optical PPG heart rate sensor  
+- **Reason:** Designed for Arduino/ESP32 projects, widely used in education and prototyping  
+- **Datasheet:** `Pulse_Sensor_Amped_SEN-11574_Datasheet.pdf`
+
+#### Power Source
+- **Name:** USB Power / LiPo Battery (3.7V)  
+- **Part Number:** N/A (Generic Power Source)  
+- **Reason:** Powering the wearable sensor module during prototyping  
+- **Datasheet:** `Generic_LiPo_Battery_Datasheet.pdf` (or USB power specification PDF)
+
+---
+
+### 🔹 Display Device (Standalone Physical Dial Display)
+
+#### Microcontroller
+- **Name:** Seeed Studio XIAO ESP32C3  
+- **Part Number:** 113991054  
+- **Reason:** Used as a standalone BLE receiver and motor controller  
+- **Datasheet:** `Seeed_XIAO_ESP32C3_Datasheet.pdf`  
+
+#### Stepper Motor (Dial Needle)
+- **Name:** 28BYJ-48 Stepper Motor (5V)  
+- **Part Number:** 28BYJ-48  
+- **Reason:** Low-cost stepper motor commonly used for analog dial indicators  
+- **Datasheet:** `28BYJ-48_Stepper_Motor_Datasheet.pdf`
+
+#### Stepper Motor Driver
+- **Name:** ULN2003 Stepper Motor Driver Board  
+- **Part Number:** ULN2003A  
+- **Reason:** Required to drive the 28BYJ-48 motor from ESP32 GPIO pins  
+- **Datasheet:** `ULN2003A_Datasheet.pdf`
+
+#### LED Indicator
+- **Name:** 5mm LED (Red)  
+- **Part Number:** Generic 5mm LED  
+- **Electrical Specifications:**  
+  - Forward Voltage: ~2.0V  
+  - Forward Current: 20mA  
+- **Datasheet:** `Generic_5mm_LED_Datasheet.pdf`
+
+#### Push Button
+- **Name:** Momentary Push Button Switch (Normally Open)  
+- **Part Number:** Generic Tactile Switch  
+- **Reason:** Used for reset and recalibration interaction  
+- **Datasheet:** `Momentary_Push_Button_Datasheet.pdf`
+
 
 ### Sensor device
 - Pulse Sensor (PPG heart rate sensor): **Pulse Sensor Amped – SEN-11574** (or your exact model)
