@@ -1,0 +1,7 @@
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet
+D1,1,LED_RED,,,,LED_SMD:LED_0603,~
+Pulse_Sensor1,1,Conn_01x03,,,,Connector_JST:JST_PH_1x03,~
+R1,1,330R,,,,Resistor_SMD:R_0603,~
+Stepper_Motor1,1,28BYJ-48 Stepper Motor,,,,,~
+"U1,U2",2,ESP32-C3-WROOM-02,,,,RF_Module:ESP32-C3-WROOM-02,https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf
+U3,1,ULN2003,,,,,http://www.ti.com/lit/ds/symlink/uln2003a.pdf
